@@ -218,7 +218,8 @@ function Change(){
     let arcade=document.getElementById("Arcade");
     let advanced=document.getElementById("Advanced");
     let pro=document.getElementById("Pro");
-    if(change.style.right==""){
+    console.log(change.style.right);
+    if(change.style.left=="0px"){
         change.style.right="0px";
         change.style.left="";
         arcade.innerHTML="$90/yr<br>2 months free";
