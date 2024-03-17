@@ -30,6 +30,7 @@ body{
     padding: 50px;
     color: aliceblue;
     border-radius: 10px;
+    background-repeat: no-repeat;
 }
 #s1{
     background-color: white;
@@ -222,7 +223,7 @@ ul{
     }
     #steps{
         width: 40%;
-        height: 75%;
+        height: 90%;
         padding: 30px 10px;
     }    
 }
